@@ -14,7 +14,7 @@ const GALLERY_IMAGES = [
 const ImageGallery = () => {
   return (
     <section className="overflow-hidden bg-[#FAF8F5] pb-4 pt-16 sm:pb-6 sm:pt-20" aria-labelledby="lookbook-heading">
-      <div className="mx-auto max-w-[1280px] px-6 sm:px-10 lg:px-16">
+      <div className="mx-auto max-w-[1660px] px-6 sm:px-10 lg:px-16">
         <p className="mb-6 text-[10px] font-medium uppercase tracking-[0.38em] text-[#8b8178] sm:mb-8">
           Lookbook
         </p>
