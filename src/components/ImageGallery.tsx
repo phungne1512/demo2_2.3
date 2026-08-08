@@ -14,15 +14,15 @@ const GALLERY_IMAGES = [
 const ImageGallery = () => {
   return (
     <section className="overflow-hidden bg-[#FAF8F5] pb-4 pt-16 sm:pb-6 sm:pt-20" aria-labelledby="lookbook-heading">
-      <div className="mx-auto max-w-[1280px] px-6 sm:px-10 lg:px-16">
+      <div className="container mx-auto px-6 sm:px-10 lg:px-16">
         <p className="mb-6 text-[10px] font-medium uppercase tracking-[0.38em] text-[#8b8178] sm:mb-8">
           Lookbook
         </p>
 
-        <div className="grid items-end gap-8 lg:grid-cols-[minmax(0,1.55fr)_minmax(280px,0.9fr)] lg:gap-12">
+        <div className="grid items-end gap-8 lg:grid-cols-12 lg:gap-12">
           <h2
             id="lookbook-heading"
-            className="max-w-[760px] text-[clamp(1.75rem,3.5vw,3.5rem)] font-semibold leading-[0.98] tracking-[-0.055em] text-[#171513]"
+            className="lg:col-span-7 max-w-[760px] text-[clamp(1.75rem,3.5vw,3.5rem)] font-semibold leading-[0.98] tracking-[-0.055em] text-[#171513]"
           >
             <span className="block">Diện mạo mới, tự tin hơn mỗi ngày</span>
             <span className="mt-2 block font-display font-normal italic tracking-[-0.045em] text-[#4a433d]">
@@ -30,7 +30,7 @@ const ImageGallery = () => {
             </span>
           </h2>
 
-          <p className="font-body max-w-[440px] pb-1 text-[15px] leading-[1.75] tracking-[-0.01em] text-[#6d655e]">
+          <p className="lg:col-span-5 font-body max-w-[440px] pb-1 text-[15px] leading-[1.75] tracking-[-0.01em] text-[#6d655e]">
             Khám phá những diện mạo mới tại Triệu Salon Lái Thiêu — nơi mỗi kiểu tóc được chăm chút theo cá tính, phong cách và đường nét riêng của bạn. Từ cắt, nhuộm đến tạo kiểu, chúng tôi giúp bạn tìm thấy mái tóc phù hợp và tự tin hơn mỗi ngày.
           </p>
         </div>
